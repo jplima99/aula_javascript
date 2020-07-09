@@ -1,3 +1,52 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://digitalinnovation.one/sign-in");
+    //window.location.href = "https://digitalinnovation.one/sign-in";
+}
+
+function trocar(element){
+    element.innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
+
+function voltar(element){
+    element.innerHTML = "passe o mouse aqui";
+}
+
+function load(){
+    alert("Página carregada");
+}
+
+function change(element){
+    console.log(element.value);
+}
+
+
+/*function soma(n1, n2){
+    return n1 + n2;
+}
+
+
+/*
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+function validaIdade(idade) {
+    var validar;
+    if (idade >= 18) {
+        validar = true;
+    } else {
+        validar = false;
+    }
+    return validar;
+
+}
+
+/*
 var d = new Date();
 alert(d.getMinutes());
 
